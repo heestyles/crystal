@@ -1,3 +1,20 @@
 td > .primary {
-    margin-top: 500px;
+    margin-top: 500px !important;
 }
+
+center img[src*="uploads/banners/"] + .mainline {
+    display: inline-block;
+}
+
+center img[src*="uploads/banners/"] + .mainline::before {
+    background-image: url(https://i1.lensdump.com/i/jXYn73.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    content: "";
+
+    position: absolute;
+    top: -200px;
+    width: 350px;
+    height: 350px;
+}
+
