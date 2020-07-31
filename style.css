@@ -1,3 +1,15 @@
+td > .primary {
+    margin-top: 530px !important;
+}
+
+center > img[src*="uploads/banners/"] {
+    margin-top: 250px;
+}
+
+center > img[src*="uploads/banners/"] + .mainline {
+    display: inline-block;
+}
+
 center > img[src*="uploads/banners/"] + .mainline::before {
     background-image: url(https://i1.lensdump.com/i/jXaK27.gif), url(https://i1.lensdump.com/i/jXYn73.png);
     background-size: 510px, 350px;
@@ -25,4 +37,10 @@ center > img[src*="uploads/banners/"] + .mainline::before {
     width: 550px;
     height: 450px;
 }
+
+#\31 2345 {
+    background-color: #6188ac;
+}
+
+
 
