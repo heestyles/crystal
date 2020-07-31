@@ -36,7 +36,7 @@ center > img[src*="uploads/banners/"] + .mainline::before {
     height: 350px;
 }
 
-#12345 > div {
+#12345 {
     background-color: #444;
 }
 
