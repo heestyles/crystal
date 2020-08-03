@@ -7,7 +7,7 @@ center > img[src*="uploads/banners/"] {
     background-attachment: fixed;
     background-size: 100%;
     
-    margin-top: 250px;
+    padding-top: 250px;
 }
 
 center > img[src*="uploads/banners/"] + .mainline {
@@ -22,7 +22,7 @@ center > img[src*="uploads/banners/"] + .mainline::before, .statusbar + center >
     content: "";
 
     position: absolute;
-    left: -100px;
+    left: -55px;
     width: 550px;
     height: 450px;
 }
