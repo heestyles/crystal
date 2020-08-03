@@ -49,3 +49,6 @@ img[src*="menu2/trees"] {
     left: 0 !important;
 }
 
+.statusbar > tbody > tr > td {
+    height: 60px;
+}
