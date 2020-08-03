@@ -64,7 +64,7 @@ button.main > table {
     font-size: 14px;
 }
 
-button.main:before {
+button.main:before, input[type=submit]:before {
   content: '';
   position: absolute;
   top: 0;
@@ -78,6 +78,10 @@ button.main:before {
     transparent
   );
   transition: all 350ms;
+}
+
+input[type=submit] {
+    color: #0d1e3e;
 }
 
 .secondary > center > table > tbody > tr > td > div {
