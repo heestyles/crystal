@@ -85,3 +85,7 @@ button.main:before {
     border-color: #a5a6d7 !important;
 }
 
+.tertiary > table {
+    font-family "Asap", sans-serif;
+    color: #a5a6d7 !important;
+}
