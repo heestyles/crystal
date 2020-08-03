@@ -24,7 +24,7 @@ center > img[src*="uploads/banners/"] + .mainline::before {
     height: 450px;
 }
 
-.statusbar + center > .mainline:first-child {
+.statusbar + center > .mainline:first-child::before {
     background-image: url(https://i1.lensdump.com/i/jXaK27.gif), url(https://i1.lensdump.com/i/jXYn73.png);
     background-size: 510px, 350px;
     background-position: 0 0, 105px 80px;
