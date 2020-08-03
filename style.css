@@ -54,6 +54,6 @@ img[src*="menu2/trees"] {
 }
 
 .statusbar > tbody > tr > td > table {
-    margin-top: 20px;
+    margin-top: -20px;
 }
 
