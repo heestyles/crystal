@@ -80,4 +80,8 @@ button.main:before {
   transition: all 350ms;
 }
 
+.secondary > center > table > tbody > tr > td > div {
+    border-radius: 0 !important;
+    border-color: #a5a6d7 !important;
+}
 
