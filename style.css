@@ -36,6 +36,10 @@ center > img[src*="uploads/banners/"] + .mainline::before {
     top: -375px;
 }
 
+img[src*="menu2/trees"] {
+    display: none;
+}
+
 #\31 2345 {
     background-color: #07061e9e;
     margin-top: 390px !important;
