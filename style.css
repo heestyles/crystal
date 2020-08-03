@@ -36,6 +36,11 @@ center > img[src*="uploads/banners/"] + .mainline::before {
     top: -375px;
 }
 
+#\31 2345 {
+    background-color: #07061e9e;
+    margin-top: 390px !important;
+}
+
 #\31 2345 > div {
     left: 0 !important;
 }
