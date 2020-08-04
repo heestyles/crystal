@@ -64,7 +64,7 @@ button.main > table {
     font-size: 14px;
 }
 
-button.main:before, input[type=submit]:before {
+button.main:before, input[type=submit]:before, input[type=button]:before {
   content: '';
   position: absolute;
   top: 0;
