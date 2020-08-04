@@ -93,3 +93,28 @@ input[type=submit] {
     font-family "Asap", sans-serif !important;
     color: #a5a6d7 !important;
 }
+
+/* Shimmering panes */
+
+img[src*="uploads/banners/"] ~ div .mainlineblack:nth-child(3n)::before,
+img[src*="uploads/banners/"] ~ div .mainlineblack:nth-child(3n)::after {
+    background-image: url(https://i1.lensdump.com/i/jXL5r1.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position-y: 10px;
+
+    content: "";
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    width: 100px;
+    height: 50px;
+    position: absolute;
+}
+
+img[src*="uploads/banners/"] ~ div .mainlineblack:nth-child(3n)::before {
+    right: -100px;
+}
+
+img[src*="uploads/banners/"] ~ div .mainlineblack:nth-child(3n)::after {
+    right: 0;
+}
+
