@@ -119,3 +119,9 @@ img[src*="uploads/banners/"] ~ div .mainlineblack:nth-child(3n)::after {
     right: 0;
 }
 
+/* Filtered stable buttons */
+
+#\31, #\32, #\33, #\34, #\35 {
+    filter: hue-rotate(170deg) saturate(.5);
+}
+
