@@ -90,8 +90,9 @@ input[type=submit] {
 }
 
 .tertiary > table {
-    font-family "Asap", sans-serif !important;
-    color: #a5a6d7 !important;
+    font-family: "Asap", sans-serif !important;
+    color: #7a87bd !important;
+    font-weight: normal !important;
 }
 
 /* Shimmering panes */
