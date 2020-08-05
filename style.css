@@ -59,9 +59,11 @@ img[src*="menu2/trees"] {
 
 button.main > table {
     font-family: Asap, sans-serif !important;
-    color: #0d1e3e !important;
     font-weight: normal !important;
     font-size: 14px;
+    
+    color: #ced7ff !important;
+    text-shadow: 0 0 2px #ced7ffbf;
 }
 
 button.main:before, input[type=submit]:before, input[type=button]:before {
