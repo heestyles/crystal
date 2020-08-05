@@ -3,8 +3,8 @@ td > .primary {
 }
 
 center > img[src*="uploads/banners/"] {
-    background-image: url(https://i1.lensdump.com/i/jXL5r1.png);
-    background-attachment: fixed;
+    background-image: linear-gradient(rgba(255, 0, 0, 0), #07061ea1 60%), url(https://i1.lensdump.com/i/jXL5r1.png);
+    background-attachment: scroll, fixed;
     background-size: 100%;
     
     padding-top: 250px;
@@ -25,6 +25,8 @@ center > img[src*="uploads/banners/"] + .mainline::before, .statusbar + center >
     left: -55px;
     width: 550px;
     height: 450px;
+    
+    pointer-events: none;
 }
 
 
