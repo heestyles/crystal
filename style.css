@@ -10,8 +10,8 @@ center > img[src*="uploads/banners/"] {
     padding-top: 250px;
 }
 
-center > img[src*="uploads/banners/"] + .mainline {
-    display: inline-block;
+center > img[src*="uploads/banners/"] + .mainline, .statusbar + center > .mainline {
+    line-height: 95px;
 }
 
 center > img[src*="uploads/banners/"] + .mainline::before, .statusbar + center > .mainline:first-child::before {
