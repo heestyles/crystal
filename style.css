@@ -125,13 +125,9 @@ img[src*="uploads/banners/"] ~ div .mainlineblack:nth-child(3n)::after {
 }
 
 /* Remove scrolls */
-.scrollleft + td {
-    background-color: transparent;
-}
-
 .scrolltop, td[style*="images/scroll"], img[src*="images/scroll"],
 .scrollleft, .scrollright, .scrollbottom {
-    visibility: hidden;
+    display: none;
 }
 
 /* Filtered stable buttons */
