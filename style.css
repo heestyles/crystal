@@ -141,7 +141,7 @@ font[color="#24683e"] {
     color: #22b082;
 }
 
-/* Red price of hay */
-font[color="#d4070c"], .smalltextred {
+/* Red price of hay, red text */
+font[color="#d4070c"], font[color="red"], .smalltextred {
     color: #D94C88;
 }
