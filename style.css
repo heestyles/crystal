@@ -10,7 +10,7 @@ center > img[src*="uploads/banners/"] {
     padding-top: 250px;
 }
 
-center > img[src*="uploads/banners/"] + .mainline, .statusbar + center > .mainline {
+center > img[src*="uploads/banners/"] + .mainline, .statusbar + center > .mainline:first-child {
     line-height: 95px;
 }
 
