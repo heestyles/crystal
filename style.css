@@ -124,6 +124,12 @@ img[src*="uploads/banners/"] ~ div .mainlineblack:nth-child(3n)::after {
     right: 0;
 }
 
+/* Remove scrolls */
+.scrolltop, td[style*="images/scroll"], img[src*="images/scroll"],
+.scrollleft, .scrollleft + td, .scrollright {
+    visibility: hidden;
+}
+
 /* Filtered stable buttons */
 
 #\31, #\32, #\33, #\34, #\35, #thehorseimage ~ div img[src*="3a.png"] {
