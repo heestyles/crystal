@@ -160,11 +160,21 @@ tr.quatro > td, tr.forumalt > td {
 }
 
 .mainlineblack.secondary td[style="padding:3px;"] {
-    background: #1a1f3c !important;
-    border: 1px solid #8a91c8;
-    padding: .3em .5em !important;
+    border-bottom: 1px solid #7bbdadf0;
+    padding: .3em 0em !important;
+}
+
+.mainlineblack.secondary td[style="padding:3px;"]:hover {
+    border-bottom: 1px solid red;
+    padding: .3em 0em !important;
 }
 
 .mainlineblack.secondary td[style="padding:3px;"] a {
     text-decoration: none;
+    color: #a8e1d3;
+}
+
+tbody > tr > td > table.mainlineblack.secondary {
+    background-color: transparent;
+    margin-right: 1em;
 }
