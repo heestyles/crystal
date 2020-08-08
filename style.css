@@ -179,3 +179,9 @@ tbody > tr > td > table.mainlineblack.secondary {
     background-color: transparent;
     margin-right: 1em;
 }
+
+/* Forum content background colour */
+
+td[bgcolor="#ffffff"] {
+    background-color: #111f35e6;
+}
