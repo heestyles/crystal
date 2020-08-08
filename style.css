@@ -158,3 +158,13 @@ tr.quatro > td, tr.forumalt > td {
     border-bottom: 1px solid #394573 !important;
     padding: 1.2em !important;
 }
+
+.mainlineblack.secondary td[style="padding:3px;"] {
+    background: #1a1f3c !important;
+    border: 1px solid #8a91c8;
+    padding: .3em .5em !important;
+}
+
+.mainlineblack.secondary td[style="padding:3px;"] a {
+    text-decoration: none;
+}
