@@ -159,18 +159,18 @@ tr.quatro > td, tr.forumalt > td {
     padding: 1.2em !important;
 }
 
-.mainlineblack.secondary td[style="padding:3px;"] {
+.mainlineblack.secondary > tbody > tr > td[style="padding:3px;"] {
     border-bottom: 1px solid #7bbdadf0;
     padding: .3em 0em !important;
     transition: all .2s ease;
 }
 
-.mainlineblack.secondary td[style="padding:3px;"]:hover {
+.mainlineblack.secondary > tbody > tr > td[style="padding:3px;"]:hover {
     border-bottom: 1px solid #ddfff9;
     padding: .3em 0em !important;
 }
 
-.mainlineblack.secondary td[style="padding:3px;"] a {
+.mainlineblack.secondary > tbody > tr > td[style="padding:3px;"] a {
     text-decoration: none;
     color: #a8e1d3;
 }
