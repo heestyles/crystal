@@ -162,10 +162,11 @@ tr.quatro > td, tr.forumalt > td {
 .mainlineblack.secondary td[style="padding:3px;"] {
     border-bottom: 1px solid #7bbdadf0;
     padding: .3em 0em !important;
+    transition: all .2s ease;
 }
 
 .mainlineblack.secondary td[style="padding:3px;"]:hover {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #ddfff9;
     padding: .3em 0em !important;
 }
 
