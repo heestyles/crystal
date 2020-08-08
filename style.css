@@ -149,6 +149,6 @@ font[color="#24683e"] {
 }
 
 /* Red price of hay, red text */
-font[color="#d4070c"], font[color="red"], .smalltextred {
+font[color="#d4070c"], font[color="red"], .smalltextred, .loss {
     color: #D94C88;
 }
