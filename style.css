@@ -152,3 +152,9 @@ font[color="#24683e"] {
 font[color="#d4070c"], font[color="red"], .smalltextred, .loss {
     color: #D94C88;
 }
+
+/* Forum */
+tr.quatro > td, tr.forumalt > td {
+    border-bottom: 1px solid #394573 !important;
+    padding: 1.2em !important;
+}
