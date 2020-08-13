@@ -185,3 +185,23 @@ tbody > tr > td > table.mainlineblack.secondary {
 td[bgcolor="#ffffff"] {
     background-color: #111f35e6;
 }
+
+/* Blockquotes */
+
+blockquote:before {
+    content: '“';
+    font-size: 8em;
+    top: -40px;
+    color: #5269abbf;
+    left: 5px;
+    position: absolute;
+}
+
+blockquote:after {
+    content: '”';
+    font-size: 8em;
+    bottom: -100px;
+    color: #5269abbf;
+    right: 5px;
+    position: absolute;
+}
