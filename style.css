@@ -205,3 +205,14 @@ blockquote:after {
     right: 5px;
     position: absolute;
 }
+
+/* Barn Manager */
+tr[bgcolor="#b49354"] {
+    background-color: #5c72c1c7;
+}
+
+
+
+
+
+}
