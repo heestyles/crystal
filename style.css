@@ -138,6 +138,12 @@ img[src*="uploads/banners/"] ~ div .mainlineblack:nth-child(3n)::after {
     filter: hue-rotate(170deg) saturate(.5);
 }
 
+img[src*="gauge"] {
+    border-radius: 3px;
+    
+    filter: hue-rotate(170deg) saturate(.5);
+}
+
 /* Generated horse image on horse page */
 #showbarns ~ img[src*="genpic.php"] {
     border-radius: 16px;
